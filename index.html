@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>THE ATLAS GYM</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>THE ATLAS <span class="txtRojo">GYM</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100057609483357&locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/newatlasgym/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Triunfar es más facil de lo que piensas!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.FITNESS
+                </div>
+                <div class="opcion">
+                    02.CROSSFIT
+                </div>
+                <div class="opcion">
+                    03.BOXING
+                </div>
+                <div class="opcion">
+                    04.ENDURANCE
+                </div>
+                <div class="opcion">
+                    05.YOGA
+                </div>
+                <div class="opcion">
+                    06.CARDIO
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros2 (2).png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">NEW ATRALS GYM NEW ATLAS GYM NEW ATLAS GYM.</p>
+                <p>NEW ATRALS GYM NEW ATLAS GYM NEW ATLAS GYM. NEW ATRALS GYM NEW ATLAS GYM NEW ATLAS GYM. NEW ATRALS GYM NEW ATLAS GYM NEW ATLAS GYM..</p>
+            </div>
+        </div>
+        </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">NEW ATLAS GYM NEW ATLAS GYM NEW ATLAS GYM NEW ATLAS GYM.</p>
+                    <p>NEW ATRALS GYM NEW ATLAS GYM NEW ATLAS GYM. NEW ATRALS GYM NEW ATLAS GYM NEW ATLAS GYM. NEW ATRALS GYM NEW ATLAS GYM NEW ATLAS GYM.</p>
+                </div>
+                <div class="col">
+                    <img src="img/servicios2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">Clases </span> de Fitness</h3>
+                        <p>Se trata de uan actividad fisica en la cual se realiza un entrenamiento compuesto por movimientos repetidos, que se planifica y se sigue frecuentemente con el propósito de mejorar o mantener el cuerpo y la mente en buenas condiciones. <a download="ClasesFittnes" href="Manual_Fitness.pdfp ">Descargar Archivo</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Clases </span> de Crossfit</h3>
+                        <p>Un sistema de entrenamiento de fuerza y acondicionamiento basados en ejercicios funcionales constantemente variados realizados a una alta intensidad. <a download="ClasesCroffit" href="Manual_Croffit.pdf">Descargar Archivo</a></p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
+                        <p>Mejora la salud cardiovascular, aumenta la resistencia y fortalece los músculos, y ayuda a liberar endorfinas. <a download="ClasesBox" href="Manual_Box.pdf">Descargar Archivo</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span class="txtRojo">Clases </span> de Enduro</h3>
+                        <p>Los músculos de los brazos y los hombros como los deltoides, supraespinoso, infraespinoso, los bíceps, los tríceps, así como los del cuello como el esternocleidomastoideo o los escalenos. <a download="ClasesEnduro" href="Manual_Enduro.pdf">Descargar Archivo</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">Clases </span> de Cardio</h3>
+                        <p>aumentar el ritmo cardíaco y la respiración al utilizar de forma reiterada un grupo muscular grande. Estos ejercicios pueden ser de alta intensidad, como correr, o de baja intensidad, como caminar. <a download="ClasesCardio" href="Manual_Cardio.pdf">Descargar Archivo</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3><span class="txtRojo">Clases </span> de Ciclismo</h3>
+                        <p>ejercicio aeróbico en el que se utiliza la parte superior e inferior del cuerpo, lo que lo convierte en una actividad muy completa. <a download="ClasesCiclismo" href="Manual_Ciclismo.pdf">Descargar Archivo</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+                <p class="p-especial">NEW ATLAS GYM NEW ATLAS GYM NEW ATLAS GYM NEW ATLAS GYM.</p>
+                <ul>
+                    <li><span>PILETA</span> - NEW ATLAS GYM ABRE SUS PUERTAS</li>
+                    <li><span>WIFI GRATIS</span> - NEW ATLAS ABRE SUS PUERTAS</li>
+                    <li><span>ESTACIONAMIENTO GRATIS</span> - NEW ATLAS ABRE SUS PUERTAS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/e1.png" alt="">
+                    <div class="info">
+                        <h2>MARCOS</h2>
+                        <p>Fitness - Pilates - Yoga</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e2.png" alt="">
+                    <div class="info">
+                        <h2>PATRICIA</h2>
+                        <p>Fitness - Pilates - Yoga</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e3.png" alt="">
+                    <div class="info">
+                        <h2>JUAN</h2>
+                        <p>Fitness - Pilates - Yoga</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+        </div>
+    <div class="wrapper">
+        <div id="wrapper">
+            <h2>Envíe su consulta</h2>
+            <form action="https://formspree.io/f/xvoebpqo" method="POST">
+            <div class="Titlexd">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="name">
+
+                <label for="email">Correo electronico</label>
+                <input type="email" name="email">
+
+                <label for="subject">Asunto</label>
+                <input type="text" name="subject">
+
+                <label for="comments"></label>
+                <textarea name="commentsid=" cols="15" rows="5"></textarea>
+            </div>
+
+                <input type="submit" value="Enviar Formulario">
+            </form>
+        </div>
+    </div>
+        <div class="fila-datos">
+            <div class="col">
+                <i class="fa-solid fa-location-dot"></i>
+                Avenida Iriondo, frente a la Plaza Central
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-phone"></i>
+                2664 - 456788
+            </div>
+            <div class="col">
+                <i class="fa-regular fa-clock"></i>
+                Lunes a Viernes, 07:00h - 22:00h
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <ul>
+            <p>2024 - <span class="txtRojo">THE GYM</span> Todos los derechos reservados</p>
+            <p>Desarrollador WEB - <span class="txtRojo">Mateo Gaspar Fernandez Romero</span> </p>
+            <p>Direción - <span class="txtRojo">Estanilao Lopéz 1457</span>
+            <p>Contacto - <span class="txtRojo"></span> 
+                <a href="https://www.facebook.com/profile.php?id=100088154517854&locale=es_LA">
+                <i class="fa-brands fa-facebook-f"></i> 
+                <a href="https://www.instagram.com/newatlasgym/">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://twitter.com/mathu__">
+                <i class="fa-brands fa-twitter"></i>
+            </p>
+            </ul>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100057609483357&locale=es_LA">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/newatlasgym/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
